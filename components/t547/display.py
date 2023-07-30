@@ -15,7 +15,7 @@ CONF_GREYSCALE = "greyscale"
 
 t547_ns = cg.esphome_ns.namespace("t547")
 T547 = t547_ns.class_(
-    "T547", cg.PollingComponent, display.DisplayBuffer
+    "T547", cg.PollingComponent, display.Display
 )
 
 CONFIG_SCHEMA = cv.All(
